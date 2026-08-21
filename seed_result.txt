@@ -1,0 +1,11 @@
+Environment variables loaded from .env
+Running seed command `ts-node -P prisma/tsconfig.json prisma/seed.ts` ...
+≡ƒî▒ Seeding databaseΓÇª
+Γ£à User: demo@callscribe.ai
+Γ£à Projects: Acme Corp Rebrand, Beta Startup Launch
+Γ£à Call notes seeded (3)
+
+≡ƒÄë Seed complete!
+   Login: demo@callscribe.ai / password123
+
+The seed command has been executed.

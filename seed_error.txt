@@ -1,0 +1,22 @@
+Environment variables loaded from .env
+Running seed command `ts-node --compiler-options '{"module":"CommonJS"}' prisma/seed.ts` ...
+<anonymous_script>:1
+'{"module":"CommonJS"}'
+^
+
+SyntaxError: Unexpected token ''', "'{"module""... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parse (D:\CallScribe AI Admin\callscribe-ai-admin\node_modules\ts-node\dist\util.js:52:45)
+    at arg (D:\CallScribe AI Admin\callscribe-ai-admin\node_modules\arg\index.js:122:24)
+    at parseArgv (D:\CallScribe AI Admin\callscribe-ai-admin\node_modules\ts-node\dist\bin.js:69:12)
+    at main (D:\CallScribe AI Admin\callscribe-ai-admin\node_modules\ts-node\dist\bin.js:25:18)
+    at Object.<anonymous> (D:\CallScribe AI Admin\callscribe-ai-admin\node_modules\ts-node\dist\bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+
+Node.js v24.13.0
+
+An error occurred while running the seed command:
+Error: Command failed with exit code 1: ts-node --compiler-options '{"module":"CommonJS"}' prisma/seed.ts
